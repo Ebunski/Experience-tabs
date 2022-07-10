@@ -22,6 +22,7 @@ function App() {
     }
   }
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => setData(getData()), []);
 
   if (loading) {
